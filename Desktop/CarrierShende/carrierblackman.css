@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	background-color:#ada37e;
+	background-image: url(../images/hdrbg.gif);
+	background-position:top left;
+	background-repeat:repeat-x;
+
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#333333;
+	margin:0px;
+}
+
+.16txt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	width:940px;
+	margin:0 auto;
+}
+
+.header{
+	margin:0px;
+	width:940px;
+	height:40px;
+	border-bottom: 1px solid #dad1a2;
+}
+
+.navholder{
+	position:relative;
+	width:940px;
+	height:0px;
+	margin:0px 0 0 0px;
+	background:#c7c2a3;
+	border:1px solid #9d9677;
+}
+
+/* These are the style for the Javascript Navigation Bar */
+#miniflex {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0px;
+  position:relative;
+  z-index:2;
+}
+
+#miniflex li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  position:relative;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#201f1d;
+}
+
+#miniflex a:link, #miniflex a:visited {
+  float: left;
+  line-height: 20px;
+  margin: 5px 12px 0 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#201f1d;
+}
+
+#miniflex a.active:link, #miniflex a.active:visited, #miniflex a:hover {
+  color: #885800;
+}
+  
+/* End Styles for the Javascript Navigation Bar */
+
+/* These are the style for the Left Navigation Bar */
+#leftNav {
+  width: 160px;
+  float: left;
+  margin: 0px;
+  padding:5px 0 0 2px;
+  position:relative;
+}
+
+#leftNav li {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#201f1d;
+  width:160px;
+}
+
+#leftNav a:link, #leftNav a:visited {
+  float: left;
+  line-height: 15px;
+  margin:0px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#201f1d;
+}
+
+#leftNav a.active:link, #leftNav a.active:visited, #leftNav a:hover {
+  width:160px;
+  background-color:#bf9446;
+}
+  
+/* End Styles for the Left Navigation Bar */
+
+.content_body{
+	float:left;
+	width:940px;
+	min-height:500px;
+	background-color:#FFFFFF;
+	border: 1px solid #9d9677;
+	margin:0px;
+	padding:0px;
+}
+
+.col_left{
+	float:left;
+	width:172px;
+}
+
+.col_right{
+	float:left;
+	width:755px;
+	min-height:500px;
+	padding:40px 0 0 10px;
+	border-left: 1px solid #9d9677 ;
+}
+
+.logo{
+	
+}
+
+.copy{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+}
+
+.footer{
+	clear:both;
+	float:left;
+	margin:0px;
+	width:940px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	
+}
+
+.footer a:link{
+color:#333333;
+text-decoration:none;
+}
+.footer a:visited{
+color:#333333;
+text-decoration:none;
+}
+.footer a:hover{
+color:#000000;
+text-decoration:underline;
+}
+  
+/* End Style for Home Page */
+
+/* Styles for All Services */
+
+.ul_global{
+	list-style:none;
+	margin:0px;
+	padding:5px 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
